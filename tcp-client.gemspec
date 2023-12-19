@@ -21,7 +21,7 @@ Gem::Specification.new do |spec|
   spec.metadata['documentation_uri'] = 'https://rubydoc.info/gems/tcp-client'
   spec.metadata['rubygems_mfa_required'] = 'true'
 
-  spec.required_ruby_version = '>= 3.0.0'
+  spec.required_ruby_version = '>= 2.6.2'
 
   spec.files = Dir['lib/**/*'] << '.yardopts'
   spec.extra_rdoc_files = %w[README.md LICENSE]
